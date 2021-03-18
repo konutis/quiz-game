@@ -1,0 +1,83 @@
+.field {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.basic-button {
+  border: none;
+  outline: none;
+  padding: 13px 16px;
+  background-color: #0f4c75;
+  cursor: pointer;
+  color: #fff;
+  width: 100%;
+  transition: .2s background-color;
+}
+
+.basic-button:hover,
+.basic-button:focus {
+  background-color: #3282b8;
+}
+
+.basic-input {
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  padding: 12px 16px;
+  border-radius: 0;
+  background: transparent;
+  outline: none;
+  border: 1px solid #0f4c75;
+  transition: .2s border-color;
+}
+
+.basic-input:focus,
+.basic-input:hover {
+  border-color: #3282b8;
+}
+
+.basic-input::placeholder {
+  color: #cacaca;
+}
+
+.basic-input::-ms-input-placeholder {
+  color: #cacaca;
+}
+
+.basic-dropdown {
+  background: url("data:image/svg+xml,%3csvg width='7px' height='11px' viewBox='0 0 7 11' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3e %3cdefs%3e %3cpath d='M3,0 L4,0 L4,4 L3,4 L3,0 L3,0 Z M4,1 L5,1 L5,4 L4,4 L4,1 L4,1 Z M5,2 L6,2 L6,4 L5,4 L5,2 L5,2 Z M6,3 L7,3 L7,4 L6,4 L6,3 L6,3 Z M2,1 L3,1 L3,4 L2,4 L2,1 L2,1 Z M1,2 L2,2 L2,4 L1,4 L1,2 L1,2 Z M0,3 L1,3 L1,4 L0,4 L0,3 Z M4,11 L3,11 L3,7 L4,7 L4,11 Z M3,10 L2,10 L2,7 L3,7 L3,10 Z M2,9 L1,9 L1,7 L2,7 L2,9 Z M1,8 L0,8 L1.11022302e-16,7 L1,7 L1,8 Z M5,10 L4,10 L4,7 L5,7 L5,10 Z M6,9 L5,9 L5,7 L6,7 L6,9 Z M7,8 L6,8 L6,7 L7,7 L7,8 Z' id='path-1'%3e%3c/path%3e %3cmask id='mask-2' maskContentUnits='userSpaceOnUse' maskUnits='objectBoundingBox' x='0' y='0' width='7' height='11' fill='white'%3e %3cuse xlink:href='%23path-1'%3e%3c/use%3e %3c/mask%3e %3c/defs%3e %3cg id='Page-1' stroke='none' stroke-width='1' fill='none'%3e %3cuse stroke='%230f4c75' mask='url(%23mask-2)' stroke-width='2' fill='none' xlink:href='%23path-1'%3e%3c/use%3e %3c/g%3e %3c/svg%3e") right 1em center no-repeat transparent;
+  appearance: none;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  padding: 12px 16px;
+  border-radius: 0;
+  border: 1px solid #0f4c75;
+  outline: none;
+  transition: .2s border-color;
+}
+
+.basic-dropdown:focus,
+.basic-dropdown:hover {
+  border-color: #3282b8;
+}
+
+.progress-field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.progress-bar {
+  height: 22px;
+  border-radius: 0;
+  border: 1px solid #0f4c75;
+}
+
+.progress-bar[value]::-webkit-progress-bar {
+  background-color: transparent;
+}
+
+.progress-bar[value]::-webkit-progress-value {
+  background-color: #bbe1fa;
+}
